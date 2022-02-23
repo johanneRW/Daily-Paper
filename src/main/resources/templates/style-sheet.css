@@ -1,0 +1,117 @@
+
+.margin {
+    padding: 10px 5vw;
+    margin-bottom: 30px;
+}
+
+.header {
+    text-align: center;
+    font-size: 50px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+#topicHeader {
+    text-align: center;
+    padding: 0 50px 40px 50px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.topic {
+    font-size: 20px;
+    display: inline-block;
+    padding: 50px;
+    width: 100px;
+}
+
+.topic a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.topic a:visited {
+    color: darkslategray
+}
+
+.lead {
+    padding: 0 5vw;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.leadBlock {
+    display: inline-block;
+    padding: 2vw;
+}
+
+.leadBlock .text {
+    width: 35vw;
+    padding: 7px;
+    display: inline-block;
+}
+
+.lead a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.lead a:visited {
+    color: darkslategray
+}
+
+.focus {
+    text-align: center;
+    border: 5px solid #41a8e2;
+    padding: 5vw;
+}
+
+.focus a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.focus a:visited {
+    color: darkslategray
+}
+
+.focusBlock {
+    display: inline-block;
+    padding: 1vw 9vw 2vw;
+    width: 25%;
+}
+
+.focusBlock.first {
+    border-right: 2px solid #41a8e2;
+}
+
+.article {
+    padding: 5vw;
+}
+
+.article img {
+    float: left;
+    margin: 0 5vw;
+}
+
+.article h1 {
+    font-size: 48px;
+}
+
+.article p {
+    display: inline-block;
+    width: 40vw;
+}
+
+.footer {
+    background-color: #41a8e2;
+    color: darkslategray;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+
+}
